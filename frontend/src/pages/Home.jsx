@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from '../components/Header'
+import SpecilityMenu from '../components/SpecialityMenu'
+import TopDoctors from '../components/TopDoctors'
+import Banner from '../components/Banner'
 
 const Home = () => {
   return (
     <div>
-        Home Page
+        <Header/>
+        <SpecilityMenu/>
+        <TopDoctors/>
+        <Banner/>
     </div>
   )
 }
